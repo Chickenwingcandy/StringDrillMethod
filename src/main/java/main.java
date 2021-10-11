@@ -21,5 +21,9 @@ public class main {
         sd.lastLetter(aStringWhichIsName);
 
         sd.firstLetter(aStringWhichIsName);
+
+        sd.partOfSentence(aStringWhichIsName);
+
+        sd.makeTheSentenceBackwards(aStringWhichIsName);
     }
 }

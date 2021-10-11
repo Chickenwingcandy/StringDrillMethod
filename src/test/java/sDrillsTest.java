@@ -47,4 +47,24 @@ public class sDrillsTest {
 
         assertEquals(actual,result);
     }
+
+    @Test
+    void partOfSentenceTest() {
+        String inputSentence = "Test is";
+
+        String actual = "Test ";
+        String result = sd.partOfSentence(inputSentence);
+
+        assertEquals(actual,result);
+    }
+
+    @Test
+    void makeTheSentenceBackwardsTest() {
+        String input = "Abcd";
+
+        String actual = "dcbA";
+        String expected = sd.makeTheSentenceBackwards(input);
+
+        assertEquals(actual, expected);
+    }
 }

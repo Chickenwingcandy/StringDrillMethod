@@ -51,6 +51,30 @@ public class sDrills {
         return letterIs;
     }
 
+    public String partOfSentence (String inputSentence){
+
+        String partOfSentence = inputSentence.substring(0,5);
+
+        System.out.println(partOfSentence);
+
+        return partOfSentence;
+    }
+
+    public String makeTheSentenceBackwards (String input){
+
+        String reversedSentence = "";
+
+        char [] brokenStentence = input.toCharArray();
+
+        for(int i = brokenStentence.length - 1; i >=0; i--){
+           reversedSentence += (String.valueOf(brokenStentence[i]));
+        }
+
+        System.out.println(reversedSentence);
+
+        return reversedSentence;
+    }
+
 
    public void writeName (){
 //       System.out.println(jane);
