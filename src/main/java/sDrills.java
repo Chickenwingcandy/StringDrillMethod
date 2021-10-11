@@ -40,6 +40,17 @@ public class sDrills {
         return letterIs;
     }
 
+    public String firstLetter(String firstLetterInWord){
+
+        char[] lettersInWord = firstLetterInWord.toCharArray();
+
+        String letterIs = String.valueOf(lettersInWord[0]);
+
+        System.out.println(letterIs);
+
+        return letterIs;
+    }
+
 
    public void writeName (){
 //       System.out.println(jane);

@@ -26,13 +26,24 @@ public class sDrillsTest {
     }
 
     @Test
-    void lastLetter() {
+    void lastLetterTest() {
 
         String lastLetter = "ea";
 
         String actual = "a";
 
         String result = sd.lastLetter(lastLetter);
+
+        assertEquals(actual,result);
+    }
+
+    @Test
+    void firstLetterTest() {
+        String firstLetter = "fa";
+
+        String actual = "f";
+
+        String result = sd.firstLetter(firstLetter);
 
         assertEquals(actual,result);
     }

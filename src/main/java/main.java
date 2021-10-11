@@ -19,5 +19,7 @@ public class main {
         sd.howLongIsThisWord(aStringWhichIsName);
 
         sd.lastLetter(aStringWhichIsName);
+
+        sd.firstLetter(aStringWhichIsName);
     }
 }
