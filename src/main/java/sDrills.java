@@ -22,12 +22,30 @@ public class sDrills {
     }
 
 
+    public String howLongIsThisWord(String countThis){
+
+        String amountOfLetters = String.valueOf(countThis.length());
+
+        System.out.println(amountOfLetters);
+
+        return amountOfLetters;
+    }
+
+    public String lastLetter(String lastLetterInWord){
+
+        String letterIs = String.valueOf(lastLetterInWord.charAt(lastLetterInWord.length()-1));
+
+        System.out.println(letterIs);
+
+        return letterIs;
+    }
+
 
    public void writeName (){
-       System.out.println(jane);
-       System.out.println(beef);
-       System.out.println(pizza);
-       System.out.println(pork);
+//       System.out.println(jane);
+//       System.out.println(beef);
+//       System.out.println(pizza);
+//       System.out.println(pork);
        System.out.println(aStringWhichIsName);
 
    }
