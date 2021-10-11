@@ -6,5 +6,8 @@ public class main {
 
         sd.writeName();
 
+        sd.setaStringWhichIsName("This is a sentence which has no meaning.");
+
+        sd.writeName();
     }
 }
