@@ -7,6 +7,7 @@ public class main {
         String amountOfLetters = "This";
 
         String aStringWhichIsName = "";
+        String onlyExistsToBeCompared = "";
 
         sd.writeName();
 
@@ -25,5 +26,10 @@ public class main {
         sd.partOfSentence(aStringWhichIsName);
 
         sd.makeTheSentenceBackwards(aStringWhichIsName);
+
+        onlyExistsToBeCompared = sd.getOnlyExistsToBeCompared();
+
+        System.out.println(aStringWhichIsName.equals(onlyExistsToBeCompared));
+
     }
 }

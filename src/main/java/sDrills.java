@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class sDrills {
 
     private String jeff ="";
@@ -12,6 +14,15 @@ public class sDrills {
 
     private String aStringWhichIsName = "12";
 
+    private String onlyExistsToBeCompared = "Nevada";
+
+    public String getOnlyExistsToBeCompared() {
+        return onlyExistsToBeCompared;
+    }
+
+    public void setOnlyExistsToBeCompared(String onlyExistsToBeCompared) {
+        this.onlyExistsToBeCompared = onlyExistsToBeCompared;
+    }
 
     public String getaStringWhichIsName() {
         return aStringWhichIsName;
@@ -75,14 +86,30 @@ public class sDrills {
         return reversedSentence;
     }
 
+    public String countToANumber(int number){
 
-   public void writeName (){
+        String numberCounter = "";
+
+        for(int i = -1; i < number; i++) {
+
+            numberCounter += String.valueOf(i + 1) + " ";
+
+        }
+
+        System.out.println(numberCounter);
+
+        return numberCounter;
+    }
+
+
+
+    public void writeName (){
 //       System.out.println(jane);
 //       System.out.println(beef);
 //       System.out.println(pizza);
 //       System.out.println(pork);
+       System.out.println(onlyExistsToBeCompared);
        System.out.println(aStringWhichIsName);
-
    }
 
 
