@@ -88,4 +88,16 @@ public class sDrillsTest {
 
         assertEquals(actual,expected);
     }
+
+
+    @Test
+    void sayMyNameTest() {
+        String name = "Mick";
+
+        String actual = "Hello, my name is Mick";
+
+        String expected = sd.sayMyName(name);
+
+        assertEquals(actual,expected);
+    }
 }

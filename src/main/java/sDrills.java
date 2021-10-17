@@ -117,6 +117,12 @@ public class sDrills {
         return numberCount;
     }
 
+    public String sayMyName(String name){
+        String greeting = "Hello, my name is ";
+
+        return greeting.concat(name);
+    }
+
 
 
     public void writeName (){
