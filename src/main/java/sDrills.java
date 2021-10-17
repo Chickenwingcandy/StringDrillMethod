@@ -101,6 +101,23 @@ public class sDrills {
         return numberCounter;
     }
 
+    public String numberToStringCount(int number){
+        String temp = "";
+        String space = "";
+        String numberCount ="";
+
+        for(int i = 0; i <= number; i ++ ){
+
+            temp += String.valueOf(i);
+        }
+
+       numberCount = temp.concat(space);
+
+        System.out.println(numberCount);
+
+        return numberCount;
+    }
+
 
 
     public void writeName (){

@@ -77,4 +77,15 @@ public class sDrillsTest {
 
         assertEquals(actual,expected);
     }
+
+
+    @Test
+    void numberToStringCountTest() {
+        int number =  5;
+
+        String actual = "012345";
+        String expected = sd.numberToStringCount(number);
+
+        assertEquals(actual,expected);
+    }
 }
