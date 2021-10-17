@@ -81,9 +81,9 @@ public class sDrillsTest {
 
     @Test
     void numberToStringCountTest() {
-        int number =  5;
+        int number = 5;
 
-        String actual = "012345";
+        String actual = "0 1 2 3 4 5 ";
         String expected = sd.numberToStringCount(number);
 
         assertEquals(actual,expected);

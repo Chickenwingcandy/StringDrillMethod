@@ -102,16 +102,15 @@ public class sDrills {
     }
 
     public String numberToStringCount(int number){
-        String temp = "";
-        String space = "";
+
+        String space = " ";
         String numberCount ="";
 
-        for(int i = 0; i <= number; i ++ ){
+        for(int i = 0; i <= number; i ++){
 
-            temp += String.valueOf(i);
+            numberCount += String.valueOf(i).concat(space);
+
         }
-
-       numberCount = temp.concat(space);
 
         System.out.println(numberCount);
 
