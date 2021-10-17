@@ -100,4 +100,16 @@ public class sDrillsTest {
 
         assertEquals(actual,expected);
     }
+
+    @Test
+    void makeASentenceTest() {
+        String first = "Big";
+        String second = "Blue";
+        String third = "House";
+
+        String actual = "Big Blue House";
+        String expected = sd.makeASentence(first, second, third);
+
+        assertEquals(actual,expected);
+    }
 }

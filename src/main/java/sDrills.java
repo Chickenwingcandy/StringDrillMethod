@@ -123,6 +123,15 @@ public class sDrills {
         return greeting.concat(name);
     }
 
+    public String makeASentence (String first, String second, String third){
+        String finalSentence = " ";
+        String space = " ";
+
+        finalSentence = first.concat(space).concat(second).concat(space).concat(third);
+
+        return finalSentence;
+    }
+
 
 
     public void writeName (){
